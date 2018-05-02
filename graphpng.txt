@@ -1,0 +1,29 @@
+ABCDEFGHI
+18
+A B 22
+A C 9
+A D 12
+B C 35
+B F 36
+B H 34
+C D 4
+C E 65
+C F 42
+D E 33
+D I 30
+E F 18
+E G 23
+F G 39
+F H 24
+G H 25
+G I 21
+H I 19
+0 0
+2 4
+2 0
+2 -4
+4 -1
+5 1
+6 -1
+8 4
+8 -4

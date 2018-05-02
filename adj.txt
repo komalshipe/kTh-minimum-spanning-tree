@@ -1,0 +1,34 @@
+ABCDEFG
+11
+A B 7
+A D 5
+B C 8
+B D 9
+B E 7
+C E 5
+D E 15
+D F 6
+E F 8
+E G 9
+F G 11
+
+for i =2 to k do
+	List_of_trees.Remove(MST)
+	for each edge E which is not in MST do
+		Add E to MST //so there will generate a new cycle
+		if i=2 then
+			//For first MST we have to consider the equal edges too
+			Select edges E’ from the cycle which have max weight and weight
+			must be less than or equal to E
+		else
+			Select edges E’ from the cycle which have max weight and weight
+			must be less than E
+		end if
+		for each edge in E’ do
+			MST’=Remove E’ from MST
+			List_of_trees.Add(MST’)
+		end for
+	end for
+	MST=List_of_trees.select_min()
+	K_MSTS[i]=MST
+end for

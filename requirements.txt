@@ -1,0 +1,15 @@
+backports.functools-lru-cache==1.5
+cycler==0.10.0
+decorator==4.2.1
+kiwisolver==1.0.1
+matplotlib==2.2.2
+networkx==2.1
+numpy==1.14.2
+pandas==0.22.0
+pyparsing==2.2.0
+python-dateutil==2.7.2
+pytz==2018.3
+scipy==1.0.1
+seaborn==0.8.1
+six==1.11.0
+subprocess32==3.2.7
